@@ -2,7 +2,7 @@
  * Project Title: Cache Simulator with Stream-Buffer Prefetching
  * Course: ECE 563 - Advanced Computer Architecture
  * Author: Sowmya Macheri balaji
- * Date: April 2025
+ * Date: Oct 2024
  * Language: C++
  * 
  * Description:
