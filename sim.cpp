@@ -1,3 +1,25 @@
+/*
+ * Project Title: Cache Simulator with Stream-Buffer Prefetching
+ * Course: ECE 563 - Advanced Computer Architecture
+ * Author: Sowmya Macheri balaji
+ * Date: April 2025
+ * Language: C++
+ * 
+ * Description:
+ * This project simulates a multi-level cache hierarchy (L1, L2) with configurable parameters.
+ * It includes a prefetch unit implementing Stream Buffers to enhance L2 cache performance.
+ * 
+ * Features:
+ * - Configurable cache size, block size, and associativity for L1 and L2 caches
+ * - LRU replacement policy and write-back + write-allocate policies
+ * - Stream-buffer prefetching for L2 cache to reduce cache misses
+ * 
+ * Instructions:
+ * - Use 'make' to build the simulator.
+ * - Run with the command: ./sim <BLOCKSIZE> <L1_SIZE> <L1_ASSOC> <L2_SIZE> <L2_ASSOC> <PREF_N> <PREF_M> <trace_file>
+ * - Example: ./sim 32 8192 4 262144 8 3 10 gcc_trace.txt
+ */
+
 #include <iostream>
 #include <vector>
 #include <cstdint>
